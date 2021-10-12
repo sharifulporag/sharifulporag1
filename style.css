@@ -1,0 +1,232 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Fira Sans', sans-serif;
+}
+body{
+	margin:0px;
+	padding:0px;
+	
+}
+.nav-logo img{
+	max-width:100px;
+	height:100px;
+	border:5px solid black;
+	border-radius:50%;
+	animation-name:porag;
+	
+}
+.nav-logo img:hover{
+	border:5px solid brown;
+	
+	
+}
+.dotted-hr{
+	border:dotted 6px white;
+	border-bottom:none;
+	margin: 20px auto;
+	width: 70px;
+}
+h1{
+	font-size:25px;
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	color:white;
+	font-size:12px;
+	
+}
+p{
+	font-size: 12px;
+	text-align:justify;
+}
+[class*="col-"]{
+	float:left;
+	padding:10px;
+}
+/*for mobile*/
+
+[class*="col-"]{
+	width:100%;
+}
+
+.navBar{
+	background:#40868b;
+	padding:1% 6%;
+	text-align:center;
+}
+.navBar h1{
+	
+	color:white;
+	margin:0;
+	padding-top:30px;
+	
+}
+
+.navBar-menu{
+	
+	display:flex;
+	flex-direction:column;
+	text-transform:uppercase;
+	
+}
+.navBar-menu a{
+	background-color: #0c6168;
+	border-radius: 10px;
+	margin: 7px 0px;
+	padding: 10px;
+}
+
+.navBar-menu a:hover{
+	background:gray;
+}
+.navBar::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+/*navbar design end*/
+
+.profile{
+	padding:130px 10px;
+	position:relative;
+	text-align:center;
+}
+.profile .top-photo{
+	position:absolute;
+	right:60px;
+	top: 20px;
+	width:100px;
+	height:100px;
+	transition: transform 2s;
+}
+.profile .top-photo:hover{
+	transform: rotate(5000deg);
+}
+
+
+
+.profile h1{
+	font-family: 'Satisfy', cursive;
+	font-size:30px;
+}
+.profile p{
+	color:gray;
+	text-align:center;
+	width:90%;
+	margin:0 auto 20px auto;
+}
+.profile .bottom-photo{
+	position:absolute;
+	left:60px;
+	width:100px;
+	height:100px;
+	bottom:10px;
+	transition: transform 2s;
+} 
+.profile .bottom-photo:hover{
+	transform: rotate(5000deg);
+} 
+profile::after{
+	display:table;
+	content:'';
+	clear:both;
+}
+h2{
+	font-size:15px;
+	text-align:center;
+}
+
+
+
+
+/*about section start*/
+
+.about-me{
+	background-color:#39a4ac;
+	padding: 1% 7%;
+	color: white;
+	text-align;center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.about-me::after{
+	content:'';
+	display:table;
+	clear:both;
+}
+.aboutme-image{
+	text-align:center;
+}
+.aboutme-image img{
+	border: 5px solid white;
+	border-radius: 50%;
+	height: 220px;
+	width: 200px;
+}
+.about-me p{
+	text-align:center;
+}
+
+.about-me a{
+	font-size: 12px;
+}
+.cv-button{
+	background-color: #052d2f;
+	color: white;
+	border:none;
+	border-radius: 12px;
+	padding: 15px;
+	font-size: 10px;
+	cursor:pointer;
+	text-align:center;
+	margin: 10px;
+}
+
+/*about section end*/
+
+/*Profecional experiance start*/
+
+
+/*Profecional experiance end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
